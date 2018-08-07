@@ -2,6 +2,9 @@
 
 def countdown(start_num)
   
-  while 
+  while start_num != 0 
+    puts "#{start_num} SECOND(S)!" 
+    start_num -= 1 
+  end
   
 end
